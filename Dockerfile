@@ -3,7 +3,7 @@ FROM debian:8
 MAINTAINER Taylor "Nekroze" Lawson
 
 RUN apt-get update -y
-RUN apt-get install -y python2 git libssl-dev
+RUN apt-get install -y python2 git
 
 RUN git clone https://github.com/DobyTang/LazyLibrarian.git /lazylibrarian
 
